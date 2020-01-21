@@ -1,0 +1,38 @@
+{
+  "name": "kbdxbt/generate",
+  "description": "laravel generate file, agile development",
+  "keywords": [
+    "generate",
+    "laravel",
+    "php"
+  ],
+  "homepage": "https://github.com/kbdxbt/generate",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kbdxbt",
+      "email": "1194174530@qq.com",
+      "homepage": "",
+      "source": "https://github.com/kbdxbt/generate.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "Kbdxbt\\Generate\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kbdxbt\\Generate\\GenerateServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
