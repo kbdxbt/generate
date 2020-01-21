@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use CrCms\Repository\Contracts\QueryRelate;
+
+class DummyClass extends BaseMagic
+{
+
+}

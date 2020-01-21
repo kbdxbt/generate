@@ -1,0 +1,37 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass extends BaseRequest
+{
+    /**
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            DummyRule
+        ];
+    }
+
+    /**
+     * @return array
+     */
+    public function attributes()
+    {
+        return [
+            DummyAttribute
+        ];
+    }
+
+    /**
+      * 填充数据
+      * @return array
+      */
+    public function filldata()
+    {
+        parent::filldata();
+
+        return $this->data;
+    }
+}

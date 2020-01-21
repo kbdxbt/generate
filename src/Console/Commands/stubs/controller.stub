@@ -1,0 +1,63 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass extends BaseController
+{
+    /**
+      * construct
+      */
+    public function __construct()
+    {
+       parent::__construct();
+    }
+
+    /**
+     * index
+     */
+    public function index()
+    {
+    }
+
+    /**
+     * list
+     */
+    public function list()
+    {
+    }
+
+    /**
+     * create
+     */
+    public function create()
+    {
+    }
+
+    /**
+      * store
+      */
+    public function store()
+    {
+    }
+
+     /**
+      * edit
+      */
+     public function edit()
+     {
+     }
+
+     /**
+      * update
+      */
+     public function update()
+     {
+     }
+
+     /**
+      * destroy
+      */
+     public function destroy()
+     {
+     }
+}

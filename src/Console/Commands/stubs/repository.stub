@@ -1,0 +1,23 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyFullModelClass;
+
+class DummyClass extends BaseRepository
+{
+    /**
+     * @var array
+     */
+    protected $guard = [
+        DummyField
+    ];
+
+    /**
+     * @return DummyModelClass
+     */
+    public function newModel(): DummyModelClass
+    {
+        return new DummyModelClass();
+    }
+}

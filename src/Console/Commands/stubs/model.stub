@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass extends BaseModel
+{
+
+    public $timestamps = true;
+
+    protected $guarded = ['id'];
+
+}
