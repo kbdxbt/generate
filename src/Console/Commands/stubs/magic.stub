@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use CrCms\Repository\Contracts\QueryRelate;
+use Kbdxbt\LaravelRepository\Contracts\QueryRelate;
 
 class DummyClass extends BaseMagic
 {
